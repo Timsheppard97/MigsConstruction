@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="/static/css/gallery.css">
+    <link rel="stylesheet" href="/static/css/gallery_mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="/static/js/gallery.js"></script>
+</head>
+<body>
+    <div id="nav">
+        <a href="/"><img id="titleLogo" src="/static/imgs/horz_logo_nobg_small.png" alt=""></a>
+        <p><a class="aTag" href="/contact">Contact Us</a></p>
+    </div>
+    <div id="container">
+        <div id="containerTitle">
+            <h1>Our Featured Work</h1>
+            <p id="mobileErase">Hover over images to see before and after shots</p>
+        </div>
+        <div class="featuredWork">
+            <img class="imgSize" id="img7" onmouseover="img7After()" onmouseout="img7Before()" src="/static/imgs/img7_before.JPG" alt="">
+            <img class="imgSize" id="desktopErase" src="/static/imgs/img7_after.JPG" alt="">
+            <p id="mobileErase">First, a waterproof membrane was applied to the substrate. Secondly, a galvanized wire mesh was attached and covered with a synthetic base coat that becomes the underlying scratch coat. Finally stone is adhered to substrate.</p>
+        </div>
+        <div class="featuredWork">
+            <img class="imgSize" id="img8" onmouseover="img8After()" onmouseout="img8Before()" src="/static/imgs/img8_before.JPG" alt="">
+            <img class="imgSize" id="desktopErase" src="/static/imgs/img8_after.JPG" alt="">
+            <p id="mobileErase">Existing pavers were power washed clean and then dried. A sealer was applied to waterproof the stone and give it a polished look. Ensuring the stone not only looked good but was stronger against any kind of weather.</p>
+        </div>
+        <div class="featuredWork">
+            <img class="imgSize" id="img9" onmouseover="img9After()" onmouseout="img9Before()" src="/static/imgs/img9_before.JPG" alt="">
+            <img class="imgSize" id="desktopErase" src="/static/imgs/img9_after.JPG" alt="">
+            <p id="mobileErase">Carpet flooring was removed, then the subfloor was cleaned, repaired and reinforced for durability. Recommended underlayment with waterproof vinyl flooring was installed.
+            </p>
+        </div>
+        <div class="featuredWork">
+            <img class="imgSize" src="/static/imgs/img1.jpeg" alt="">
+            <img class="imgSize" src="/static/imgs/img2.jpg" alt="">
+        </div>
+        <div class="featuredWork">
+            <img class="imgSize" src="/static/imgs/img3.jpg" alt="">
+            <img class="imgSize" src="/static/imgs/img4.jpg" alt="">
+        </div>
+        <div class="featuredWork">
+            <img class="imgSize" src="/static/imgs/img5.jpeg" alt="">
+            <img class="imgSize" src="/static/imgs/img5.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

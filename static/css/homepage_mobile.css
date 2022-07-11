@@ -11,7 +11,6 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 30px 0px;
         font-weight: 800;
         color: whitesmoke;
     }
@@ -20,6 +19,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         margin-top: 20px;
+        font-size: 4.5vw;
         text-shadow:
         0.07em 0 black,
         0 0.07em black,
@@ -27,9 +27,14 @@
         0 -0.07em black;
     }
 
+    #routes p {
+        margin-bottom: 10px;
+    }
+
     body {
         background-image: url(/static/imgs/concrete.jpg);
         background-size: 100% 100%;
+        height: 100%;
     }
 
     #titleLogo {
@@ -37,14 +42,14 @@
         width: 80vw;
     }
 
+    #container {
+        margin-bottom: 0px;
+    }
+
     #firstBox {
-        display: flex;
-        flex-direction: column;
         text-align: center;
         width: 100vw;
-        height: auto;
         font-size: 18px;
-        margin-bottom: 30px;
     }
 
     #firstBox h3 {
@@ -60,6 +65,7 @@
     #secondBoxHeader {
         display: flex;
         flex-direction: column;
+        font-size: 4.5vw;
     }
 
     #secondBoxHeader p {
@@ -68,7 +74,7 @@
 
     #secondBox {
         text-align: center;
-        font-size: 18px;
+        font-size: 22px;
     }
 
     #secondBoxTitle {
@@ -79,9 +85,9 @@
 
     #secondBoxInfo {
         width: 80vw;
-        font-size: 18px;
         display: flex;
         text-align: center;
+        font-size: 5vw;
     }
 
     #container {
@@ -89,20 +95,57 @@
     }
 
     #container2 {
-        height: 65vh;
+        height: 70vh;
         display: block;
     }
 
     #footer {
-        height: 30vh;
+        height: 35vh;
         width: 100%;
         margin: auto;
     }
 
     #footer img {
-        height: 250px;
-        width: 350px;
+        height: 35vh;
+        width: 100vw;
         margin: auto;
         display: block;
     }
+
+    .aTag {
+        color: ghostwhite;
+    }
+
+    #instaLogo {
+        margin-top: 15px;
+        height: 30px;
+        width: 30px;
+    }
+
+    #iFrame {
+        height: 50vh;
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #iFrame iframe {
+        height: 80%;
+        width: 100%;
+    }
+
+    #belowiFrame {
+        margin: auto;
+        width: 60vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #belowiFrame p {
+        font-size: 5vw;
+    }  
 }

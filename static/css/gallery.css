@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(/static/imgs/concrete.jpg);
+    background-size: cover;
+}
+
+#nav {
+    height: 30vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-weight: 800;
+}
+
+#titleLogo {
+    height: 112px;
+    width: 417px;
+}
+
+#nav p {
+    font-size: 28px;
+    text-align: center;
+}
+
+.aTag {
+    text-decoration: none;
+    color: black;
+    background-image: url(/static/imgs/concrete.jpg);
+    background-size: 100% 100%;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#container {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+#containerTitle {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow:
+    0.07em 0 gray,
+    0 0.07em gray,
+    -0.07em 0 gray,
+    0 -0.07em gray;
+}
+
+.featuredWork {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.featuredWork p {
+    font-size: 1.5vw;
+    font-weight: 600;
+    height: 35vh;
+    width: 20vw;
+    display: flex;
+    align-items: center
+}
+
+.imgSize {
+    height: 35vh;
+    width: 25vw;
+}
+
+#desktopErase {
+    display: none;
+}

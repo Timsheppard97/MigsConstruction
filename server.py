@@ -7,5 +7,13 @@ app = Flask(__name__)
 def home():
     return render_template("homepage.html")
 
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
+@app.route("/gallery")
+def gallery():
+    return render_template("gallery.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

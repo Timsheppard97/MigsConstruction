@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(/static/imgs/concrete.jpg);
+    background-size: cover;
+}
+
+#nav {
+    height: 30vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-weight: 800;
+}
+
+#titleLogo {
+    height: 112px;
+    width: 417px;
+}
+
+#nav p {
+    font-size: 28px;
+    text-align: center;
+}
+
+#infoBox {
+    height: 600px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#infoBox h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+#infoBox p {
+    font-size: 24px;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+#instaLogo {
+    height: 50px;
+    width: 50px;
+}
+
+.aTag {
+    text-decoration: none;
+    color: black;
+    background-image: url(/static/imgs/concrete.jpg);
+    background-size: 100% 100%;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}

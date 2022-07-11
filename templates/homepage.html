@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Migs Bros Contracting</title>
-    <link rel="stylesheet" href="/static/homepage.css">
-    <link rel="stylesheet" href="/static/homepage_mobile.css">
+    <link rel="stylesheet" href="/static/css/homepage.css">
+    <link rel="stylesheet" href="/static/css/homepage_mobile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="/static/js/homepage.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -20,9 +21,8 @@
         </div>
         <div #id="nav_right">
             <div id="routes">
-                <p>Contact Us<a href="https://www.instagram.com/migsbroscontracting/"><img id="insta_logo" src="/static/imgs/Instagram_icon.png.webp" alt=""></a></p>
-                <p>Gallery</p>
-                <p>About Us</p>
+                <p><a class="aTag" href="/contact">Contact Us</a><a href="https://www.instagram.com/migsbroscontracting/"><img id="instaLogo" src="/static/imgs/Instagram_icon.png.webp" alt=""></a></p>
+                <p><a class="aTag" href="/gallery">Gallery</a></p>
             </div>
             
         </div>
@@ -30,7 +30,7 @@
     <div id="container" class="topBorder">
         <div id="firstBox">
             <h3>Who We Are</h3>
-            <p>With over 10 years of experience in various exterior work, Migs Bros Contracting is the place for those who want to turn their home or business into the place to be. We offer premier mechanic work in fields such as, but not limited to, Stucco/EIFS, Masonry/Stone, Power Washing, Painting, Seasonal Yard cleanup, and Gutter Cleaning. We prioritize using top quality materials to ensure the best usability and longevity of our work. </p>
+            <p>With over 10 years of experience in various exterior work, Migs Bros Contracting is the place for those who want to turn their home or business into the place to be. We offer premier mechanic work in fields such as, but not limited to, Stucco/EIFS, Masonry/Stone, Power Washing, Painting, Seasonal Yard cleanup, and Gutter Cleaning. We prioritize using top quality materials to ensure the best usability and longevity of our work.</p>
         </div>
         <img class="roundImg" src="/static/imgs/img5.jpg" alt="">
     </div>
@@ -42,14 +42,27 @@
             </div>
             <div id="secondBoxHeader">
                 <p>Email: <span id="blueFont">migsbrothers@gmail.com</span></p>
-                <p>Phone: <span id="blueFont">(631)-748-7936</span></p>
-                <p >Instagram:<a id="aTag" href="https://www.instagram.com/migsbroscontracting/">@migsbroscontracting</a></p>
-                <a id="secondBoxInsta" href="https://www.instagram.com/migsbroscontracting/"><img id="insta_logo" src="/static/imgs/Instagram_icon.png.webp" alt=""></a>
+                <p>Phone: <span id="blueFont">(631) 748-7936</span></p>
+                <p >Instagram:<a class="aTag" id="blueFont"href="https://www.instagram.com/migsbroscontracting/">@migsbroscontracting</a></p>
+                <a id="secondBoxInsta" href="https://www.instagram.com/migsbroscontracting/"><img id="instaLogo" src="/static/imgs/Instagram_icon.png.webp" alt=""></a>
             </div>
             <div id="secondBoxInfo">
                 <p>Taking the first step is always the hardest, thankfully we make it easy for you. Contact us today to schedule a free estimate regarding your commercial or residential property. Whether you want to stand out from the competition or have the go to place for all your family/friends gatherings, we are here for you. Reach out via one of the methods above so we can get started.</p>
             </div>
         </div>
+    </div>
+    <div id="iFrame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d772586.2111284111!2d-73.50948803383199!3d40.851792437882395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x81d24cf9fca8713f%3A0xd8737d20be868fae!2sMigs%20Bros%20Contracting!5e0!3m2!1sen!2sus!4v1657222468868!5m2!1sen!2sus" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="belowiFrame">
+        <h1>Hours</h1>
+        <p>Monday: 9am - 6pm</p>
+        <p>Tuesday: 9am - 6pm</p>
+        <p>Wednesday: 9am - 6pm</p>
+        <p>Thursday: 9am - 6pm</p>
+        <p>Friday: 9am - 6pm</p>
+        <p>Saturday: 9am - 6pm</p>
+        <p>Sunday: Closed</p>
     </div>
     <div id="footer">
         <img src="/static/imgs/vert_logo_nobg_small.png" alt="">
