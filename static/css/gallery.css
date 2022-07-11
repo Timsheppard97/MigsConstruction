@@ -77,8 +77,24 @@ body {
 .imgSize {
     height: 35vh;
     width: 25vw;
+    border: 1px solid black;
+    border-radius: 25px;
 }
 
 #desktopErase {
     display: none;
+}
+
+#footer {
+    height: 45vh;
+    width: 55vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer img {
+    height: 65%;
+    width: 65%;
 }

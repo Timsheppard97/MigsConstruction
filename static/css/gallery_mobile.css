@@ -41,4 +41,17 @@
     #desktopErase {
         display: block;
     }
+
+    #footer {
+        height: 35vh;
+        width: 100%;
+        margin: auto;
+    }
+
+    #footer img {
+        height: 35vh;
+        width: 100vw;
+        margin: auto;
+        display: block;
+    }
 }
