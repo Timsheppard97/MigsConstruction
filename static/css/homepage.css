@@ -32,9 +32,8 @@ body {
 }
 
 #instaLogo {
-    height: 20px;
-    width: 20px;
-    margin-left: 5px;
+    height: 30px;
+    width: 30px;
 }
 
 #container {
@@ -66,16 +65,15 @@ body {
 }
 
 #firstBox h3 {
-    display: flex;
-    flex: 2;
     text-align: center;
     font-size: 40px;
     padding-top: 15px;
 }
 
 #firstBox p {
-    flex: 7;
-    padding: 0px 15px;
+    padding-right: 25px;
+    font-size: 1.5vw;
+    margin-top: 3vh;
 }
 
 #container2 {

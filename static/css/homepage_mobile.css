@@ -7,28 +7,16 @@
 @media (max-width: 600px) {
     .nav {
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         flex-direction: column;
         justify-content: center;
-        text-align: center;
-        font-weight: 800;
-        color: whitesmoke;
     }
 
     #routes {
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin-top: 20px;
         font-size: 4.5vw;
-        text-shadow:
-        0.07em 0 black,
-        0 0.07em black,
-        -0.07em 0 black,
-        0 -0.07em black;
-    }
-
-    #routes p {
-        margin-bottom: 10px;
+        width: 100%;
+        align-items: center;
+        margin-top: 3vh;
     }
 
     body {
@@ -47,15 +35,16 @@
     }
 
     #firstBox {
-        text-align: center;
+        margin-top: 3vh;
+        height: 100%;
         width: 100vw;
         font-size: 18px;
     }
 
     #firstBox h3 {
-    margin-bottom: 20px;
     padding: 0px;
     font-size: 30px;
+    margin-bottom: 2vh;
     }
 
     .roundImg{
@@ -64,6 +53,7 @@
 
     #secondBoxHeader {
         display: flex;
+        text-align: center;
         flex-direction: column;
         font-size: 4.5vw;
     }
@@ -73,11 +63,11 @@
     }
 
     #secondBox {
-        text-align: center;
         font-size: 22px;
     }
 
     #secondBoxTitle {
+        text-align: center;
         width: 100%;
         margin: 15px 0px;
         padding-top: 10px;
@@ -86,7 +76,6 @@
     #secondBoxInfo {
         width: 80vw;
         display: flex;
-        text-align: center;
         font-size: 5vw;
     }
 
@@ -113,11 +102,10 @@
     }
 
     .aTag {
-        color: ghostwhite;
+        align-items: center;
     }
 
     #instaLogo {
-        margin-top: 15px;
         height: 30px;
         width: 30px;
     }
