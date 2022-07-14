@@ -30,21 +30,31 @@
         width: 80vw;
     }
 
+    #mainBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     #container {
-        margin-bottom: 0px;
+        margin-bottom: 2vh;
+        height: 60vh;
     }
 
     #firstBox {
         margin-top: 3vh;
         height: 100%;
         width: 100vw;
-        font-size: 18px;
     }
 
     #firstBox h3 {
     padding: 0px;
     font-size: 30px;
     margin-bottom: 2vh;
+    }
+
+    #firstBox p {
+        font-size: 5vw;
     }
 
     .roundImg{
@@ -79,12 +89,8 @@
         font-size: 5vw;
     }
 
-    #container {
-        height: 50vh;
-    }
-
     #container2 {
-        height: 70vh;
+        height: 75vh;
         display: block;
     }
 
