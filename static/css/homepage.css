@@ -114,6 +114,65 @@ body {
     padding-top: 30px;
 }
 
+#container3 {
+    height: 50vh;
+    width: 60vw;
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    align-items: center;
+}
+
+#thirdBoxTitle {
+    text-align: center;
+    margin: auto;
+    font-size: 1.5vw;
+}
+
+#thirdBoxInfo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#review {
+    border-bottom: 2px solid black;
+    padding: 1vw;
+}
+
+#review h4 {
+    font-size: 1.5vw;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+#review p {
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: black;
+}
+
+#reviewRating {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+#reviewRating img {
+    margin-left: 2vw;
+    height: 2.2vh;
+    width: 9vw;
+}
+
+#homeAdvisor {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
 #blueFont {
     color: blue;
     background: none;

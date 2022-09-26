@@ -90,8 +90,35 @@
     }
 
     #container2 {
-        height: 75vh;
+        height: 70vh;
         display: block;
+    }
+
+    #container3 {
+        height: 70vh;
+        width: 80vw;
+    }
+
+    #thirdBoxTitle {
+        font-size: 5vw;
+    }
+
+    #review p{
+        font-size: 5vw;
+    }
+
+    #reviewRating h4 {
+        font-size: 4vw;
+        margin-bottom: 1vh;
+    }
+
+    #reviewRating img {
+        height: 2vh;
+        width: 20vw;
+    }
+
+    #homeAdvisor {
+        font-size: 4vw;
     }
 
     #footer {
